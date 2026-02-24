@@ -1,0 +1,27 @@
+[
+  {"nombre":"Fusión Atemporal",
+   "descrip":"Este exquisito conjunto de mobiliario y decoración representa una cuidada selección que trasciende las tendencias pasajeras. La composición aúna la funcionalidad y las líneas limpias del diseño de mediados de siglo con la distinguida belleza del arte clásico, creando un ambiente de sofisticación y cultura.",
+   "precio":"1.600€",
+   "imagen":"producto1.jpg"},
+   {"nombre":"Refugio de Serenidad",
+   "descrip":"Este salón es una oda a la calidez y la comodidad, un espacio diseñado para ser vivido y disfrutado. La combinación de texturas naturales y una paleta de colores neutros crea una atmósfera acogedora y luminosa, ideal para desconectar y relajarse.",
+   "precio":"5.200€",
+   "imagen":"producto2.jpg"},
+   {"nombre":"Confort Chic",
+   "descrip":"Este salón es una demostración magistral de cómo la elegancia y la comodidad pueden coexistir en perfecta armonía. Bañado en luz natural, el espacio se siente abierto, fresco y acogedor, creando un ambiente ideal para el día a día.",
+   "precio":"900€",
+   "imagen":"producto3.jpg"},
+   {"nombre":"Un Rincón Funcional",
+   "descrip":"La mesa, con su inconfundible base de pedestal y su superficie redonda y minimalista en blanco puro, es un clásico del diseño que maximiza el espacio y la comodidad. Su silueta escultural aporta una sensación de ligereza y modernidad.",
+   "precio":"750€",
+   "imagen":"producto4.jpg"},
+   {"nombre":"Santuario de Calma",
+   "descrip":"Este dormitorio principal es un refugio de serenidad y estilo, diseñado para promover el descanso y la relajación en un entorno de sofisticación moderna. La paleta de colores, dominada por tonos neutros de gris, blanco y la calidez de la madera natural, crea una atmósfera tranquila y acogedora.",
+   "precio":"4.000€",
+   "imagen":"producto5.jpg"},
+   {"nombre":"Santuario Moderno",
+   "descrip":"Este dormitorio es un exponente de diseño interior contemporáneo con fondo de madera de alta calidad, donde la arquitectura y el mobiliario se fusionan para crear un ambiente cohesivo y sumamente acogedor. Diseñado para promover el descanso y la relajación en un iluminación expresiva con un entorno minimalista.",
+   "precio":"3.300€",
+   "imagen":"producto6.jpg"}
+
+]

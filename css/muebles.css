@@ -1,0 +1,210 @@
+
+
+/** Header y Navegación **/
+.nombre-sitio {
+    margin-top: 1.6rem;
+    text-align: center;
+    span {
+        color: var(--color_fondo);
+    }
+}
+
+.contenedor-navegacion {
+    border-top: .1rem solid #e1e1e1;
+    .nav-principal {
+        padding: 2rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     a:hover{
+        color:var(--color_fondo);
+
+     }   
+    }
+    @media (width >= 768px)
+    {  .nav-principal {
+        justify-content: space-evenly;
+        flex-direction: row;
+        }
+    }
+}
+
+.imagencabecera {
+    background-image: url(../img/principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 25rem;
+    @media (min-width: 768px) { 
+        height: 55rem;
+    }
+}
+
+/** Categorias **/
+.categorias {
+    padding: 3rem 0;
+   .categoria {
+        margin-bottom: 2rem;
+        width:70%;
+        margin-inline: auto;  
+        a {
+            text-align: center;
+            display: block;
+            padding: 2rem;
+            font-size: 2rem;
+        &:hover{
+            background-color: var(--color_fondo);
+            color: #FFFFFF;
+            border-radius: 0 0 1rem 0;
+              }
+          }
+     }
+ @media (width>= 768px) { 
+   .listado-categorias {
+      display:flex;  
+    .categoria {
+        margin-bottom: 0;
+        width:30%;
+        display:flex;
+        flex-direction: column ;
+                }
+                        }
+                       }
+}
+
+
+/** Bloque Nosotros */
+.sobre-nosotros {
+    display: flex;
+    flex-direction: column;
+
+    .imagen-nosotros{
+        background:  url(../img/nosotros.jpg);
+        background-position: left;
+        background-size: cover;
+        height: 40rem;
+        width: 100vw;    
+    }
+    .texto-nosotros{
+            text-align: center;
+            background-color: var(--color_fondo);
+            color:white;
+            width:100vw;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+    }  
+    @media (width >=768px)
+    {   flex-direction: row;
+        .imagen-nosotros{
+            background-position: left center;
+            width:50vw;           
+        }
+        .texto-nosotros{
+            width: 50vw;
+        }
+    }
+}
+
+
+/** Listado de Productos **/
+.contenido-principal {
+    padding-top: 2rem;
+    .producto {
+        background-color: var(--color_fondo);
+        margin-bottom: 2rem;
+        .texto-producto {
+            height: 100%;
+            text-align: center;
+            color: #FFFFFF;
+            padding: 2rem;   
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; 
+            gap:1rem;
+            .precio {
+                 font-size: 2.8rem;
+                 font-weight: 900;
+                    }
+            
+        }
+    }
+
+@media (width >= 768px) { 
+    .listado-productos {
+        display: flex;
+        flex-wrap: wrap;
+        gap:1rem;
+    }
+    .producto {
+       margin-bottom: 0;
+       display: flex;
+       flex-direction: column;
+       .texto-producto{
+          display: flex;
+          flex-direction: column;
+          
+          
+       }
+      
+       img {
+          width: 100%;
+          object-fit: cover;
+          object-position: left center;
+          
+       }
+       &:nth-child(1)
+       {
+         flex-direction: row;
+         width:100%;
+         img{
+            width: 60%;    
+         };
+       }
+
+       &:nth-child(2),
+       &:nth-child(3),
+       &:nth-child(4)
+       {
+          width: calc((100% - 2rem) / 3) ;
+          
+       }
+       &:nth-child(5),
+       &:nth-child(6)
+       {
+         width: calc((100% - 1rem) /2);
+       }
+    }   
+}
+}
+/** Galeria **/
+.galeria {
+    list-style: none;
+    width:90%;
+    margin:auto;
+     img {
+        padding: 1rem;
+        width: 100%;
+        object-fit: cover;
+        &:hover{
+            filter:brightness(0.5)
+        }
+    }
+    
+    @media (width >= 768px) { 
+        width: 90%;
+        display:flex;
+        flex-wrap: wrap;
+        gap:2rem;
+        li{
+           flex:1;    
+         img{
+            width:100%;
+            min-width:30rem;
+            height:30rem; 
+            padding:0; 
+         }
+        }
+    }
+}
